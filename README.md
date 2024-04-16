@@ -25,25 +25,28 @@ Hide/Show table of contents
     Git is the free and open source distributed version control system that's responsible for everything GitHub related that happens locally on your computer. This cheat sheet features the most important and commonly
     used Git commands for easy reference.
 
-    **[⬆ Back to Top](#table-of-contents)**
+
+     **[⬆ Back to Top](#table-of-contents)**
 
 
 
-2. ### What is GitHub?
+3. ### What is GitHub?
 
    GitHub is a web-based platform used for version control and collaboration on projects primarily based on Git. It offers a range of features including source code management (version control), issue tracking, pull
    requests, code review, and project management tools.
 
    GitHub is widely used by developers and teams for
-       - managing and sharing code,
-       - collaborating on projects, and
-       - contributing to open-source software.
+   
+   - managing and sharing code,
+   - collaborating on projects, and
+   - contributing to open-source software.
+
 
    **[⬆ Back to Top](#table-of-contents)**
 
 
 
-3. ### What is Git Cheat Sheet?
+4. ### What is Git Cheat Sheet?
 
    **SETUP**
 
@@ -299,7 +302,7 @@ Hide/Show table of contents
 
 
 
-4. ### Disclaimer
+5. ### Disclaimer
 
    **Note:**
 
