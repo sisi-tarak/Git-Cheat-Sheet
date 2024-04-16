@@ -45,7 +45,7 @@ Hide/Show table of contents
 
 3. ### What is Git Cheat Sheet?
 
-   ** SETUP **
+   **SETUP**
 
    Configuring user information used across all local repositories
    
@@ -67,7 +67,7 @@ Hide/Show table of contents
        '''
 
 
-    ** INIT **
+    **INIT**
 
     Configuring user information, initializing and cloning repositories
 
@@ -85,7 +85,7 @@ Hide/Show table of contents
        '''
 
 
-    ** STAGE & SNAPSHOT**
+    **STAGE & SNAPSHOT**
 
    Working with snapshots and the Git staging area
 
@@ -119,7 +119,7 @@ Hide/Show table of contents
        '''
    
 
-    ** BRANCH & MERGE **
+    **BRANCH & MERGE**
 
    Isolating work in branches, changing context, and integrating changes
 
@@ -149,7 +149,7 @@ Hide/Show table of contents
        '''
 
 
-    ** INSPECT & COMPARE **
+    **INSPECT & COMPARE**
 
    Examining logs, diffs and object information
 
@@ -179,7 +179,7 @@ Hide/Show table of contents
        '''
    
 
-   ** TRACKING PATH CHANGES **
+   **TRACKING PATH CHANGES**
 
    Versioning file removes and path changes
 
@@ -201,7 +201,7 @@ Hide/Show table of contents
        '''
    
 
-   ** IGNORING PATTERNS **
+   **IGNORING PATTERNS**
 
    Preventing unintentional staging or commiting of files
 
@@ -221,7 +221,7 @@ Hide/Show table of contents
        '''
    
 
-   ** SHARE & UPDATE **
+   **SHARE & UPDATE**
 
    Retrieving updates from another repository and updating local repos
 
@@ -251,7 +251,7 @@ Hide/Show table of contents
        '''
    
 
-   ** REWRITE HISTORY **
+   **REWRITE HISTORY**
 
    Rewriting branches, updating commits and clearing history
 
@@ -269,7 +269,7 @@ Hide/Show table of contents
        '''
    
 
-   ** TEMPORARY COMMITS **
+   **TEMPORARY COMMITS**
 
    Temporarily store modified, tracked files in order to change branches
 
@@ -301,7 +301,7 @@ Hide/Show table of contents
 
 4. ### Disclaimer
 
-   ** Note: **
+   **Note:**
 
     This Git cheat sheet is provided for basic informational purposes only. While we strive to ensure the accuracy and reliability of the information presented here, it is important to note that Git commands and workflows may vary based on factors such as operating         system, Git version, and individual project requirements.
 
