@@ -14,9 +14,9 @@ Hide/Show table of contents
 | --- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | 1   | [What is Git?](#what-is-git)                                                                                                                                                                               |
 | 2   | [What is GitHub?](#What-is-github)                                                                                                                                                                         |
-|     | **Cheat Sheet**                                                                                                                                                                                            |
+|     | **Cheat Sheet with Commands**                                                                                                                                                                              |
 | 3   | [What is Git Cheat Sheet?](#what-is-git-cheat-sheet)                                                                                                                                                       |
-| 4   | [What are Git Commands?](#What-are-git-commands)                                                                                                                                                           |
+| 4   | [Disclaimer](#disclaimer)                                                                                                                                                                                  |
 
 
 
@@ -47,7 +47,7 @@ Hide/Show table of contents
 
    ** SETUP **
 
-   Configuring 'user information' used across all local repositories
+   Configuring user information used across all local repositories
    
        '''bash
    
@@ -69,7 +69,7 @@ Hide/Show table of contents
 
     ** INIT **
 
-    Configuring user information, 'initializing' and 'cloning' repositories
+    Configuring user information, initializing and cloning repositories
 
        '''bash
 
@@ -87,7 +87,7 @@ Hide/Show table of contents
 
     ** STAGE & SNAPSHOT**
 
-   Working with snapshots and the 'Git staging' area
+   Working with snapshots and the Git staging area
 
        '''bash
 
@@ -121,7 +121,7 @@ Hide/Show table of contents
 
     ** BRANCH & MERGE **
 
-   Isolating work in 'branches', 'changing context', and 'integrating changes'
+   Isolating work in branches, changing context, and integrating changes
 
        '''bash
 
@@ -151,7 +151,7 @@ Hide/Show table of contents
 
     ** INSPECT & COMPARE **
 
-   Examining 'logs', 'diffs and object' information
+   Examining logs, diffs and object information
 
        '''bash
 
@@ -181,7 +181,7 @@ Hide/Show table of contents
 
    ** TRACKING PATH CHANGES **
 
-   Versioning 'file removes' and 'path changes'
+   Versioning file removes and path changes
 
        '''bash
 
@@ -203,7 +203,7 @@ Hide/Show table of contents
 
    ** IGNORING PATTERNS **
 
-   Preventing 'unintentional' staging or commiting of files
+   Preventing unintentional staging or commiting of files
 
        '''bash
 
@@ -253,7 +253,7 @@ Hide/Show table of contents
 
    ** REWRITE HISTORY **
 
-   'Rewriting' branches, updating commits and clearing history
+   Rewriting branches, updating commits and clearing history
 
        '''bash
 
@@ -271,7 +271,7 @@ Hide/Show table of contents
 
    ** TEMPORARY COMMITS **
 
-   Temporarily 'store modified', 'tracked files in order' to change branches
+   Temporarily store modified, tracked files in order to change branches
 
        '''bash
 
@@ -299,4 +299,14 @@ Hide/Show table of contents
 
 
 
-5. ### What are Git Commands?
+4. ### Disclaimer
+
+   ** Note: **
+
+    This Git cheat sheet is provided for basic informational purposes only. While we strive to ensure the accuracy and reliability of the information presented here, it is important to note that Git commands and workflows may vary based on factors such as operating         system, Git version, and individual project requirements.
+
+    Before executing any Git commands, we strongly recommend reviewing the official Git documentation and exercising caution, especially when working with sensitive or production-level repositories. Additionally, always make sure to back up your data and verify the         impact of any commands on your repository before proceeding.
+    
+    By using this Git cheat sheet, you acknowledge and agree that the authors and contributors are not liable for any damages or losses resulting from the use or misuse of the information provided herein.
+
+    Good luck and Pull Request are highly appreciated 😊
