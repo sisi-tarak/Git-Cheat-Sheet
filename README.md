@@ -15,8 +15,8 @@ Hide/Show table of contents
 | 1   | [What is Git?](#what-is-git)                                                                                                                                                                               |
 | 2   | [What is GitHub?](#What-is-github)                                                                                                                                                                         |
 |     | **Cheat Sheet**                                                                                                                                                                                            |
-| 3   | [What are Git Setup Commands?](#what-are-git-setup-commands)                                                                                                                                               |
-| 4   | [What are Git init Commands?](#What-are-git-init-commands)                                                                                                                                                 |
+| 3   | [What is Git Cheat Sheet?](#what-is-git-cheat-sheet)                                                                                                                                                       |
+| 4   | [What are Git Commands?](#What-are-git-commands)                                                                                                                                                           |
 
 
 
@@ -43,21 +43,77 @@ Hide/Show table of contents
 
 
 
-3. ### What are Git Setup Commands?
+3. ### What are Git Cheat Sheet?
+
+   ** SETUP **
 
    Configuring user information used across all local repositories
    
        '''bash
-          git config --global user.name “[firstname lastname]”
-        '''
-   set a name that is identifiable for credit when review version history
    
-       '''bash   
-          git config --global user.email “[valid-email]”
-        '''
-     -  set an email address that will be associated with each history marker
+
+       # set a name that is identifiable for credit when review version history
+       git config --global user.name “[firstname lastname]”
    
-      git config --global color.ui auto  -  set automatic command line coloring for Git for easy reviewing
+     
+       # set an email address that will be associated with each history marker
+       git config --global user.email “[valid-email]”
+   
+
+       # set automatic command line coloring for Git for easy reviewing
+       git config --global color.ui auto
+   
+
+       '''
+
+
+    ** INIT **
+
+    Configuring user information, initializing and cloning repositories
+
+       '''bash
+
+
+       # initialize an existing directory as a Git repository
+       git init
+
+       # retrieve an entire repository from a hosted location via URL
+       git clone [url]
+
+
+       '''
+
+
+    ** STAGE **
+
+   Working with snapshots and the Git staging area
+
+       '''bash
+
+
+       # show modified files in working directory, staged for your next commit
+       git status
+
+       # add a file as it looks now to your next commit (stage)
+       git add [file]
+
+       # unstage a file while retaining the changes in working directory
+       git reset [file]
+
+       # diff of what is changed but not staged
+       git diff
+
+       # diff of what is staged but not yet committed
+       git diff --staged
+
+       # commit your staged content as a new commit snapshot
+       git commit -m “[descriptive message]”
+
+
+       '''
+   
+
+    ** BRANCH & MERGE **
    
 
    **[⬆ Back to Top](#table-of-contents)**
