@@ -139,7 +139,11 @@ Hide/Show table of contents
 
        # switch to another branch and check it out into your working directory
        git checkout
-   
+       
+
+       # create a new branch from another branch
+       git checkout -b [newBranchName] [exisitingBrachName]
+
 
        # merge the specified branch’s history into the current one
        git merge [branch]
